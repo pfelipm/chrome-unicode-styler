@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizador de Texto Unicode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1 id="header-title">Estilizador de Texto Unicode</h1>
+
+        <!-- Contenedor para el área de texto y el botón de limpiar -->
+        <div class="textarea-container">
+            <textarea id="text-input" rows="2" placeholder="Escribe o pega texto..."></textarea>
+            <button id="clear-text-btn" title="Limpiar texto">
+                <!-- Icono SVG para la 'X' -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+
+        <!-- Nuevo campo de búsqueda para filtrar estilos -->
+        <input type="search" id="search-input" placeholder="Buscar estilos...">
+    </header>
+
+    <main id="output-container">
+        <!-- Los estilos se generarán aquí con JS -->
+    </main>
+
+    <footer class="app-footer">
+        Creado con 🩵 por
+        <a href="https://www.linkedin.com/in/pfelipm/" target="_blank">Pablo Felip</a> |
+        <a href="https://github.com/pfelipm/chrome-unicode-styler" target="_blank">GitHub</a>
+    </footer>
+
+    <!-- La notificación "toast" sigue fuera del flujo principal -->
+    <div id="toast">
+        <p>¡Copiado!</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
