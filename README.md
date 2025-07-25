@@ -43,7 +43,7 @@ Puedes instalar esta extensión en tu navegador Chrome de forma local siguiendo 
 
 1.  **Descarga o Clona el Repositorio:**
     ```bash
-    git clone [https://github.com/pablofelip/chrome-unicode-styler.git](https://github.com/pablofelip/chrome-unicode-styler.git)
+    git clone [https://github.com/pfelipm/chrome-unicode-styler.git](https://github.com/pfelipm/chrome-unicode-styler.git)
     ```
 2.  Abre Google Chrome y ve a la página de extensiones: `chrome://extensions`.
 3.  Activa el **"Modo de desarrollador"** en la esquina superior derecha.
