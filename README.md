@@ -55,5 +55,5 @@ Puedes instalar esta extensión en tu navegador Chrome de forma local siguiendo 
 
 ## 💙 Créditos
 
-Este proyecto ha sido creado y desarrollado por **Pablo Felip**.
+Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linkedin.com/in/pfelipm).
 
