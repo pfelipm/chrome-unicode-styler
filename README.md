@@ -57,6 +57,6 @@ Puedes instalar esta extensión en tu navegador Chrome de forma local siguiendo 
 
 Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linkedin.com/in/pfelipm).
 
-## Licencia
+## ✊ Licencia
 
 Este proyecto está licenciado bajo los términos del archivo `LICENSE`.
