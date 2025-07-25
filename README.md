@@ -4,8 +4,6 @@ Dale personalidad a tus textos en cualquier página web. Convierte texto normal 
 
 ![Imagen CUS](./readme-files/CUS1280x800.png)
 
----
-
 ## ✨ Características Principales
 
 Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
@@ -20,8 +18,6 @@ Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 * **Ligera y rápida:** Construida con HTML, CSS y JavaScript puros, sin frameworks pesados, para un rendimiento óptimo.
 * **Manifest V3:** Totalmente compatible con la última versión del manifiesto de extensiones de Chrome.
 
----
-
 ## 🎨 Estilos Incluidos
 
 La extensión cuenta con una cuidada selección de los estilos más populares y útiles:
@@ -34,8 +30,6 @@ La extensión cuenta con una cuidada selección de los estilos más populares y 
 * Superíndice y Letra Pequeña (Small Caps)
 * Doble Trazo y Monoespaciado
 * Tachado, Subrayado e Invertido
-
----
 
 ## 🚀 Instalación
 
@@ -51,11 +45,11 @@ Puedes instalar esta extensión en tu navegador Chrome de forma local siguiendo 
 5.  Selecciona la carpeta del proyecto que acabas de descargar.
 6.  ¡Listo! El icono de la extensión aparecerá en tu barra de herramientas.
 
----
 
 ## 💙 Créditos
 
 Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linkedin.com/in/pfelipm).
+
 
 ## ✊ Licencia
 
