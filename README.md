@@ -2,7 +2,7 @@
 
 Dale personalidad a tus textos en cualquier página web. Convierte texto normal a docenas de estilos Unicode únicos con un solo clic y cópialo directamente a tu portapapeles.
 
-![Captura de pantalla de la extensión en funcionamiento](https://readme.files/CUS 1280x800.png)
+![Captura de pantalla de la extensión en funcionamiento](./readme-files/CUS 1280x800.png)
 
 ---
 
