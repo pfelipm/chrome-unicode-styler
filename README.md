@@ -53,4 +53,4 @@ Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linked
 
 ## ✊ Licencia
 
-Este proyecto está licenciado bajo los términos del archivo `LICENSE`.
+Este proyecto está licenciado bajo los términos del archivo [LICENSE](/LICENSE).
