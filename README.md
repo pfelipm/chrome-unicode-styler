@@ -1,6 +1,6 @@
 # Estilizador de Texto Unicode - Extensión para Chrome
 
-Dale personalidad a tus textos en cualquier página web. Convierte texto normal a docenas de estilos Unicode únicos con un solo clic y cópialo directamente a tu portapapeles.
+Dale personalidad a tus textos en cualquier página web. Convierte texto normal a diferentes estilos Unicode únicos con un solo clic y cópialo directamente a tu portapapeles.
 
 ![Imagen CUS](./readme-files/CUS1280x800.png)
 
