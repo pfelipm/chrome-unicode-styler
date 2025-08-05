@@ -43,7 +43,7 @@ Puedes instalar esta extensión en tu cuenta de Google desde su [ficha](https://
 3.  Activa el **"Modo de desarrollador"** en la esquina superior derecha.
 4.  Haz clic en el botón **"Cargar descomprimida"**.
 5.  Selecciona la carpeta del proyecto que acabas de descargar.
-6.  ¡Listo! El icono de la extensión aparecerá en tu barra de herramientas.
+6.  ¡Listo! El icono de la extensión aparecerá en tu barra de extensiones, te sugiero que lo fijes a ella para usarlo con mayor comodidad.
 
 
 ## 💙 Créditos
