@@ -1,4 +1,4 @@
-# Estilizador de Texto Unicode - Extensión para Chrome
+# Estilizador de Texto Unicode
 
 Dale personalidad a tus textos en cualquier página web. Convierte texto normal a diferentes estilos Unicode únicos con un solo clic y cópialo directamente a tu portapapeles.
 
@@ -33,11 +33,9 @@ La extensión cuenta con una cuidada selección de los estilos más populares y 
 
 ## 🚀 Instalación
 
+Puedes instalar esta extensión en tu cuenta de Google desde su [ficha](https://chromewebstore.google.com/detail/mmhadiodfkknlpbfomkadpechfhbejcg?utm_source=item-share-cb) en la Chrome Web Store (recomendado) o de manera local en cada uno de tus navegadores siguiendo estos pasos:
 
-
-Puedes instalar esta extensión en tu cuenta de Google desde su [ficha](https://chromewebstore.google.com/detail/mmhadiodfkknlpbfomkadpechfhbejcg?utm_source=item-share-cb) en la Chrome Web Store o de manera local en cada uno de tus navegadores siguiendo estos pasos:
-
-1.  **Descarga o Clona el Repositorio:**
+1.  Descarga y descomprime o clona este repositorio:
     ```bash
     git clone https://github.com/pfelipm/chrome-unicode-styler.git
     ```
