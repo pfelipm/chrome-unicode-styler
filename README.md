@@ -15,7 +15,6 @@ Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 * **Soporte de caracteres especiales (v1.2):** Incluye un nuevo modo para estilizar tildes (á, é...), la ñ y la ç mediante una técnica avanzada de composición Unicode (NFD).
 * **Acceso rápido:** La extensión recuerda el último estilo que usaste y lo coloca al principio de la lista para tu comodidad.
 
-![Soporte Caracteres Especiales](./readme-files/soporte-caracteres-especiales1.2.png)
 * **Controles útiles:** Incluye un botón para limpiar el área de texto con un solo clic.
 * **Feedback visual:** Confirma que has copiado un estilo con una animación sutil en la propia tarjeta y una notificación.
 * **Ligera y rápida:** Construida con HTML, CSS y JavaScript puros, sin frameworks pesados, para un rendimiento óptimo.
