@@ -21,6 +21,8 @@ Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 * **Ligera y rápida:** Construida con HTML, CSS y JavaScript puros, sin frameworks pesados, para un rendimiento óptimo.
 * **Manifest V3:** Totalmente compatible con la última versión del manifiesto de extensiones de Chrome.
 
+![Demostración de filtros y caracteres especiales](./readme-files/demov1.3.gif)
+
 ## 🎨 Estilos Incluidos
 
 La extensión cuenta con una cuidada selección de los estilos más populares y útiles:
