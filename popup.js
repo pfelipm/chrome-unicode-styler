@@ -51,14 +51,38 @@ const excludedStylesFromExtendedMode = [
     'circled', 'squared', 'superscript', 'strikethrough', 'underline', 'inverted'
 ];
 
+// --- ETIQUETAS PARA FILTRADO ---
+const styleTags = {
+    'sansSerifBold': ['bold', 'sansserif'],
+    'sansSerifItalic': ['italic', 'sansserif'],
+    'sansSerifBoldItalic': ['bold', 'italic', 'sansserif'],
+    'serifBold': ['bold', 'serif'],
+    'serifItalic': ['italic', 'serif'],
+    'serifBoldItalic': ['bold', 'italic', 'serif'],
+    'fraktur': ['creative'],
+    'frakturBold': ['bold', 'creative'],
+    'circled': ['creative'],
+    'squared': ['creative'],
+    'superscript': ['creative'],
+    'smallCaps': ['creative'],
+    'scriptBold': ['bold', 'creative'],
+    'doubleStruck': ['creative'],
+    'monospace': ['creative'],
+    'strikethrough': ['creative'],
+    'underline': ['creative'],
+    'inverted': ['creative']
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     const textInput = document.getElementById('text-input');
     const outputContainer = document.getElementById('output-container');
     const searchInput = document.getElementById('search-input');
     const clearTextBtn = document.getElementById('clear-text-btn');
     const extendedModeCheck = document.getElementById('extended-mode-check');
+    const filterChips = document.querySelectorAll('.filter-chip');
     let lastUsedStyle = null;
     let extendedMode = false;
+    let activeFilter = 'all';
 
     function convertText(text, style) {
         const map = styles[style];
@@ -97,6 +121,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let styleKeys = Object.keys(styleNames);
 
+        // Filtrado por categoría (chips)
+        if (activeFilter !== 'all') {
+            styleKeys = styleKeys.filter(key => 
+                styleTags[key] && styleTags[key].includes(activeFilter)
+            );
+        }
+
+        // Filtrado por búsqueda
         if (searchTerm) {
             styleKeys = styleKeys.filter(key =>
                 styleNames[key].toLowerCase().includes(searchTerm.toLowerCase())
@@ -160,6 +192,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchInput.addEventListener('input', () => {
         renderStyles(textInput.value, searchInput.value);
+    });
+
+    filterChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            const isAlreadyActive = chip.classList.contains('active');
+            
+            // Desactivar todos primero
+            filterChips.forEach(c => c.classList.remove('active'));
+            
+            if (isAlreadyActive) {
+                // Si ya estaba activo, volvemos a 'all' (ningún botón resaltado)
+                activeFilter = 'all';
+            } else {
+                // Si no estaba activo, activamos este
+                chip.classList.add('active');
+                activeFilter = chip.getAttribute('data-filter');
+            }
+            
+            renderStyles(textInput.value, searchInput.value);
+        });
     });
 
     clearTextBtn.addEventListener('click', () => {

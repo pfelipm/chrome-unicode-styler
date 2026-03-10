@@ -12,7 +12,8 @@ Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 * **Captura de texto automática:** Al hacer clic en el icono de la extensión, el texto que tengas seleccionado en la página se cargará automáticamente.
 * **Interfaz limpia y moderna:** Una ventana emergente diseñada para ser intuitiva y agradable a la vista, con un modo de scroll que mantiene los controles siempre visibles.
 * **Buscador en tiempo real:** Filtra la lista completa de estilos al instante para encontrar el que necesitas sin esfuerzo.
-* **Soporte de caracteres especiales (v1.2):** Incluye un nuevo modo para estilizar tildes (á, é...), la ñ y la ç mediante una técnica avanzada de composición Unicode (NFD).
+* **Filtros por categorías (v1.3):** Clasifica los estilos en categorías útiles (Negrita, Cursiva, Serif, Sans Serif y Creativas) para una navegación más rápida.
+* **Soporte de caracteres especiales (v1.2):** Incluye un modo para estilizar tildes (á, é...), la ñ y la ç mediante una técnica avanzada de composición Unicode (NFD).
 * **Acceso rápido:** La extensión recuerda el último estilo que usaste y lo coloca al principio de la lista para tu comodidad.
 
 * **Controles útiles:** Incluye un botón para limpiar el área de texto con un solo clic.

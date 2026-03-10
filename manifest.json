@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Estilizador de Texto Unicode",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Convierte el texto seleccionado a diferentes estilos Unicode y lo copia al portapapeles.",
   "permissions": [
     "activeTab",
