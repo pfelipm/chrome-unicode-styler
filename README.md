@@ -1,10 +1,10 @@
-# Estilizador de Texto Unicode
+# Estilizador de texto Unicode
 
 Dale personalidad a tus textos en cualquier página web. Convierte texto normal a diferentes estilos Unicode únicos con un solo clic y cópialo directamente a tu portapapeles.
 
 ![Imagen CUS](./readme-files/CUS1280x800.png)
 
-## ✨ Características Principales
+## ✨ Características principales
 
 Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 
@@ -22,8 +22,9 @@ Esta extensión ha sido diseñada para ser potente, rápida y fácil de usar.
 * **Manifest V3:** Totalmente compatible con la última versión del manifiesto de extensiones de Chrome.
 
 ![Demostración de filtros y caracteres especiales](./readme-files/demov1.3.gif)
+*En esta animación se muestra el nuevo interruptor para activar el soporte de estilizado de caracteres especiales.*
 
-## 🎨 Estilos Incluidos
+## 🎨 Estilos incluidos
 
 La extensión cuenta con una cuidada selección de los estilos más populares y útiles:
 
